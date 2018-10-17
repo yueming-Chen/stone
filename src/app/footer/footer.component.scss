@@ -1,0 +1,22 @@
+.footer__section {
+  min-height: 128px;
+  height: 10vh;
+  position: relative;
+  font-family: 'Courier New', Courier, monospace;
+  background-color: #ab78ac;
+  .contact-btn {
+    position: absolute;
+    right: 10vw;
+    top: 50%;
+    transform: translateY(-50%);
+    padding: 1rem 1rem;
+    background-color: red;
+    color: white;
+  }
+  .copyright-text {
+    position: absolute;
+    bottom: 1rem;
+    left: 2rem;
+    color: white;
+  }
+}
