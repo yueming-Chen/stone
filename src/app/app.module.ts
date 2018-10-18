@@ -5,9 +5,11 @@ import { HeaderComponent } from './header/header.component';
 import { FooterComponent } from './footer/footer.component';
 import { HomeComponent } from './home/home.component';
 import { RouterModule, Routes } from '@angular/router';
+import { AboutComponent } from './about/about.component';
 
 const route: Routes = [
   { path: 'home', component: HomeComponent },
+  { path: 'about', component: AboutComponent },
 ];
 
 @NgModule({
@@ -16,6 +18,7 @@ const route: Routes = [
     HeaderComponent,
     FooterComponent,
     HomeComponent,
+    AboutComponent,
   ],
   imports: [
     BrowserModule,
